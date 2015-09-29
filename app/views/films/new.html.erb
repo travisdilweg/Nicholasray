@@ -1,0 +1,6 @@
+<h1>Enter Nick Ray film details</h1>
+<%= simple_form_for @film do |f| %>
+	<%= f.input :movie %>
+	<%= f.input :year %>
+	<%= f.submit 'Create', :class => 'btn btn-danger' %>
+<% end %>
